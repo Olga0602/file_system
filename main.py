@@ -12,17 +12,17 @@ else:
           pass 
 
 
-name_folder = input("Введите имя папки: ")
-name_file = input("Введите имя файла: ")
+# name_folder = input("Введите имя папки: ")
+# name_file = input("Введите имя файла: ")
 
-print(os.listdir("."))
-if f"{name_folder}" in os.listdir("."):
-     with open(f"{name_folder}/{name_file}", "a", encoding="utf-8") as file: # создает файл
-           pass 
-else:
-       os.mkdir(f"{name_folder}")
-       with open(f"{name_folder}/{name_file}", "a", encoding="utf-8") as file: # создает файл
-           pass   
+# print(os.listdir("."))
+# if f"{name_folder}" in os.listdir("."):
+#      with open(f"{name_folder}/{name_file}", "a", encoding="utf-8") as file: # создает файл
+#            pass 
+# else:
+#        os.mkdir(f"{name_folder}")
+#        with open(f"{name_folder}/{name_file}", "a", encoding="utf-8") as file: # создает файл
+#            pass   
 
 # if name_folder not in os.listdir("."): тоже что и выше только без повторений
 #      os.mkdir(name_folder)
@@ -34,17 +34,16 @@ else:
 # os.mkdir(f"{name_folder}")
 # with open(f"{name_folder}/{name_file}", "a", encoding="utf-8") as file: # создает файл
 #           pass 
-
-
-
+append_film("Titanic", 9.9)
 # write_user_message("Привет пайтон")
 
 # append_new_user()
 # search_name = input("Какого юзера найти")
+
 # read_file.search_user()
 # print(f"Пользователь {search_name} находится на {read_file.search_user(search_name)} строчке")
 
-# write_favorite_movie()
+# # write_favorite_movie()
 # show_movies()
 
 # file = open("data.txt", "r", encoding="utf-8")
